@@ -32,31 +32,31 @@ This project implements a Raspberry Pi-based autonomous car controller that uses
 1. Prepare the dataset folder in this structure:
 ```bash
    yolov5_dataset
-├── data.yaml
-├── images
-│   ├── train
-│   │   ├── 1_frame_000000.jpg
-│   │                .
-│   │                .
-│   │                .
-│   └── val
-│       ├── 1_frame_000029.jpg
-│                    .
-│                    .
-│                    .
-└── labels
-    ├── train
-    │   ├── 1_frame_000000.txt
-    │   ├── 1_frame_000087.txt
-    │                .
-    │                .
-    │                .
-    ├── val
-    │   ├── 1_frame_000029.txt
-    │   ├── 1_frame_000058.txt
-    │                .
-    │                .              
-    └──              .
+   ├── data.yaml
+   ├── images
+   │   ├── train
+   │   │   ├── 1_frame_000000.jpg
+   │   │                .
+   │   │                .
+   │   │                .
+   │   └── test
+   │       ├── 1_frame_000029.jpg
+   │                    .
+   │                    .
+   │                    .
+   └── labels
+       ├── train
+       │   ├── 1_frame_000000.txt
+       │   ├── 1_frame_000087.txt
+       │                .
+       │                .
+       │                .
+       ├── test
+       │   ├── 1_frame_000029.txt
+       │   ├── 1_frame_000058.txt
+       │                .
+       │                .              
+       └──              .
 ```
 
 ## Usage
