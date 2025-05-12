@@ -28,6 +28,36 @@ This project implements a Raspberry Pi-based autonomous car controller that uses
    pip install -r requirements.txt
    ```
 3. Ensure the YOLO model file (e.g., `best.pt`) is available.
+## Dataset structure
+1. Prepare the dataset folder in this structure:
+```bash
+   yolov5_dataset
+├── data.yaml
+├── images
+│   ├── train
+│   │   ├── 1_frame_000000.jpg
+│   │                .
+│   │                .
+│   │                .
+│   └── val
+│       ├── 1_frame_000029.jpg
+│                    .
+│                    .
+│                    .
+└── labels
+    ├── train
+    │   ├── 1_frame_000000.txt
+    │   ├── 1_frame_000087.txt
+    │                .
+    │                .
+    │                .
+    ├── val
+    │   ├── 1_frame_000029.txt
+    │   ├── 1_frame_000058.txt
+    │                .
+    │                .              
+    └──              .
+```
 
 ## Usage
 1. Connect the Arduino to the Raspberry Pi via USB.
