@@ -55,7 +55,7 @@ This project implements a Raspberry Pi-based autonomous car controller that uses
        │   ├── 1_frame_000029.txt
        │   ├── 1_frame_000058.txt
        │                .
-       │                .              
+       │                .
        └──              .
 ```
 
